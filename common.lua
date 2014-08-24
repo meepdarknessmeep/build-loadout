@@ -48,8 +48,6 @@ GARRYSMOD_INCLUDES_PATH	= fixdir "gmod-module-base/include"
 BACKWARDS_HEADERS 		= fixdir "backwards_headers"
 HOOKING 				= fixdir "hooking"
 SIGSCANNING 			= fixdir "sigscanning"
-LUA51 					= fixdir "lua51"
-LUAJIT 					= fixdir "luajit"
 SOURCE_SDK				= fixdir "source-sdk-2013-master/mp/src"
 STEAMWORKS_SDK			= fixdir "steamworks"
 
@@ -217,12 +215,8 @@ end
 
 function LINUX()
 	configuration	("linux")
-	defines 	{'SERVER_BIN="server_srv.so"'}
-	defines 	{'LUA_SHARED="lua_shared_srv.so"'}
-	defines 	{'LUA_SHARED_CLIENT="lua_shared.so"'}
 	defines		{"COMPILER_GCC","POSIX","_POSIX","LINUX","_LINUX","GNUC","NO_MALLOC_OVERRIDE"}
 	linkoptions	{"-Wl,-z,defs"}
-	libdirs		{SRCDS_DIR..'/bin'}
 	links		{"rt","dl"}
 end
 
