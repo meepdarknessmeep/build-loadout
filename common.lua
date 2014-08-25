@@ -80,7 +80,7 @@ function SOURCE_SDK_LINKS()
 		SOURCE_SDK.."/lib/public/linux32/tier3.a",
 		SOURCE_SDK.."/lib/public/linux32/mathlib.a",
 	}
-	links {"tier0_srv","vstdlib_srv","steam_api"}
+	links {"steam_api"}
 	configuration(cfg.terms)
 end
 
