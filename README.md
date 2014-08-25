@@ -3,9 +3,9 @@ Instructions:
 
 Requirements:
 ---
-Git
-Steamworks SDK
-Source SDK
+- Git
+- Steamworks SDK
+- Source SDK
 
 Windows:
 ---
