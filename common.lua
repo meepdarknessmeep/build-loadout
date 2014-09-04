@@ -75,6 +75,7 @@ function SOURCE_SDK_LINKS()
 	
 	configuration 		"linux"
 	linkoptions { -- :(
+		SOURCE_SDK.."/lib/public/linux32/libtier0.so",
 		SOURCE_SDK.."/lib/public/linux32/tier1.a",
 		SOURCE_SDK.."/lib/public/linux32/tier2.a",
 		SOURCE_SDK.."/lib/public/linux32/tier3.a",
