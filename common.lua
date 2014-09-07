@@ -246,7 +246,7 @@ function PROJECT()
 		--"fopen=dont_use_fopen",
 	}
 	
-	files	{"src/*.cpp"}
+	files	{"src/**.cpp"}
 	
 	targetprefix			"gm_"
 	
