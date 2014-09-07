@@ -18,6 +18,7 @@ Windows:
 Linux:
 ---
 		apt-get install build-essential gcc g++ g++-multilib gcc-multilib libc6-dev-i386 git subversion wget tar bzip2 gzip unzip
+		cp premake5 /usr/local/bin
 Mac:
 		TODO
 
