@@ -207,7 +207,7 @@ function RequireDefaultlibs()
 end
 function WINDOWS()
 	configuration	("windows")
-	defines		{"COMPILER_MSVC32","WIN32","_WIN32","_WINDOWS"}		
+	defines		{"COMPILER_MSVC32","WIN32","_WIN32","_WINDOWS","_WIN32_WINNT=0x0501"}		
 	defines 	{'SERVER_BIN="server.dll"'}
 	if not defaultlibs_required then
 		linkoptions	{ "/nodefaultlib:\"libcmt\"", "/nodefaultlib:\"libcmtd\"" }
