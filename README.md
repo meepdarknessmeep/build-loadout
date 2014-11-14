@@ -17,7 +17,7 @@ Windows:
 
 Linux:
 ---
-		apt-get install build-essential gcc g++ g++-multilib gcc-multilib libc6-dev-i386 git subversion wget tar bzip2 gzip unzip
+		apt-get install build-essential gcc g++ g++-multilib gcc-multilib libc6-dev-i386 git subversion wget tar bzip2 gzip unzip libboost-all-dev:i386 libpthread-stubs0-dev
 If you don't have premake5 installed:
 
 		cp premake5 /usr/local/bin
