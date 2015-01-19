@@ -26,7 +26,7 @@ Mac:
 
 Things you need to run.
 ---
-	get_source_sdk.cmd
+	remove_sp.cmd
 
 Credits/Copyright:
 ---
