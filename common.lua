@@ -48,7 +48,7 @@ GARRYSMOD_INCLUDES_PATH	= fixdir "gmod-module-base/include"
 BACKWARDS_HEADERS 		= fixdir "backwards_headers"
 HOOKING 				= fixdir "hooking"
 SIGSCANNING 			= fixdir "sigscanning"
-SOURCE_SDK				= fixdir "source-sdk-2013-master/mp/src"
+SOURCE_SDK				= fixdir "source-sdk-2013/mp/src"
 STEAMWORKS_SDK			= fixdir "steamworks"
 
 PROJECT_FOLDER = os.get() .. "/" .. _ACTION
