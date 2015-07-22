@@ -248,7 +248,7 @@ function PROJECT()
 	
 	files	{"src/**.cpp"}
 	
-	targetprefix			"gm_"
+	targetprefix(_SOLUTION_NAME:sub(1,5) ~= "gmsv_" and _SOLUTION_NAME:sub(1,5) ~= "gmcl_" and "gm_" or "")
 	
 	if IsIncluded"backwards_headers" then
 		files {BACKWARDS_HEADERS.."/*.cpp"}
